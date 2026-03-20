@@ -29,7 +29,7 @@ function App() {
   return (
       <>
       <h1>Counter App using React</h1>
-        <h2>Total Count :  <span style={{color: color}}>{counter}</span> </h2>
+        <h2>My Count :  <span style={{color: color}}>{counter}</span> </h2>
         <h2> * Max 10 *</h2>
         <button onClick={increase}  disabled={counter === 10}>+</button>
         <button onClick={reset}>Reset</button>
